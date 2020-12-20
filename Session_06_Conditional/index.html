@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    //if - else
+
+    // let num = prompt("Nhập vào 1 số");
+    // let isEven = num % 2 === 0;// kiểm tra số chẵn
+    // if (isEven){
+    //     document.writeln("<h1>Bạn đã nhập vào số chẵn</h1>");
+    // }else {
+    //     document.writeln("<h1>Bạn đã nhập vào số lẻ</h1>");
+    // }
+
+    //if-else lồng nhau
+    // let a = prompt("Nhập vào số a");
+    // let b = prompt("Nhập vào số b");
+    // let c = prompt("Nhập vào số c");
+    // if (a > b){
+    //     if (a > c){
+    //         document.writeln("Số lớn nhất là a = " + a);
+    //     } else {
+    //         document.writeln("Số lớn nhất là c = " + c);
+    //     }
+    // } else {
+    //     if (b > c){
+    //         document.writeln("Số lớn nhất là b = " + b);
+    //     }else {
+    //         document.writeln("Số lớn nhất là c = " + c);
+    //     }
+    // }
+
+    //if - else bậc thang
+    // let mark = prompt("Nhập điểm của bạn: ");
+    // if (mark >= 90){
+    //     document.writeln("<h1>Bạn xếp hạng A</h1>");
+    // }else if (mark >= 80){
+    //     document.writeln("<h1>Bạn xếp hạng B</h1>");
+    // } else if (mark >= 70){
+    //     document.writeln("<h1>Bạn xếp hạng C</h1>");
+    // } else {
+    //     document.writeln("<h1>Bạn xếp hạng F</h1>");
+    // }
+    // let num = 1.0 - 0.1 - 0.1 - 0.1 - 0.1 - 0.1;
+    // alert(num);
+    // if (num === 0.5) {
+    //     document.writeln("<h1>Bằng nhau</h1>")
+    // } else {
+    //     document.writeln("<h1>Khác nhau</h1>")
+    // }
+
+    //switch-case
+    // let num = prompt("Nhập vào 1 số");
+    // switch (num) {
+    //     case '1':
+    //         document.writeln("Hôm nay là thứ 2");
+    //         break;
+    //     case '2':
+    //         document.writeln("Hôm nay là thứ 3");
+    //         break;
+    //     case '3':
+    //         document.writeln("Hôm nay là thứ 4");
+    //     case '4':
+    //         document.writeln("Hôm nay là thứ 5");
+    //     case '5':
+    //         document.writeln("Hôm nay là thứ 6");
+    //         break;
+    //     case '6':
+    //         document.writeln("Hôm nay là thứ 7");
+    //         break;
+    //     case '0':
+    //         document.writeln("Hôm nay là chủ nhật");
+    //         break;
+    //     default:
+    //         document.writeln("Bạn nhập sai định dạng");
+    // }
+
+    //Toán tử 3 ngôi
+    let num1 = parseInt(prompt("Nhập vào số thứ 1"));
+    let num2 = parseInt(prompt("Nhập vào số thứ 2"));
+    // if (num1 > num2){
+    //     document.writeln("Num1 lớn nhất, có giá trị = " + num1);
+    // } else {
+    //     document.writeln("Num2 lớn nhất, có giá trị = " + num2);
+    // }
+
+    let max = num1 > num2 ? num1 : num2;
+    document.writeln("Số lớn nhất có giá trị = " + max);
+</script>
+</body>
+</html>
