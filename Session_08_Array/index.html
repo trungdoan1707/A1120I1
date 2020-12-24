@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    //Cách 1:
+    // let students = ["Sỹ Thắng", "Hoàng Đức", "Sâm"];
+    //Cách 2:
+    // let students = new Array("Sỹ Thắng", "Hoàng Đức", "Sâm");
+    //Cách 3:
+    // let students = Array("Sỹ Thắng", "Hoàng Đức", "Sâm");
+    // alert(students);
+
+    //Khi khai báo mảng bằng Array hoặc new Array mà chỉ truyền vào 1 số
+    //thì mảng được khai báo sẽ có số lượng phần tử được truyền vào
+    // let numbers = Array(6);
+    // alert(numbers);
+    // document.writeln("<h1>" + numbers.length +"</h1>")
+
+    // let students = ["Sỹ Thắng", "Hoàng Đức", "Sâm"];
+    //Thêm phần tử vào cuối mảng
+    // students.push("Quốc Trung");
+    // students.push("Trung");
+    // alert(students);
+    // students.pop();
+
+    //Nối các phần tử thành chuỗi
+    // alert(students.join("-*****-"));
+    // alert(students.join());
+
+    //Đảo ngược các phần tử trong mảng
+    // alert(students.reverse());
+    // alert(students.sort());
+
+    //Sắp xếp số từ lớn đến nhỏ
+    // let numbers = [7,6,4,2,6,7,44,1,13];
+    // alert(numbers.sort(function (a,b) {
+    //     return b - a;
+    // }));
+
+    // let students = ["Trần Thanh","Sỹ Thắng", "Hoàng Đức", "Sâm"];
+    // students.shift();
+    // students.unshift("Trần Thanh");
+    // alert(students.toString());
+
+    //Duyệt mảng:
+    let students = ["Trần Thanh", "Sỹ Thắng", "Hoàng Đức", "Sâm"];
+    //Cách 1
+    // for (let i = 0; i < students.length; i++){
+    //     document.writeln("Học viên thứ " + (i+1)+"là: "+ students[i] + "<br>");
+    // }
+
+    //Cách 2: for in
+    // for (let index in students) {
+    //     document.writeln("Học viên thứ " + (index + 1) + "là: " + students[index] + "<br>");
+    // }
+
+    //Cách 3 : for - of
+    // for (let student of students){
+    //     document.writeln(student + "<br>")
+    // }
+
+    // let cities = [
+    //     ["SG","HN","DN"],
+    //     ["ABC","XYS","NBD"],
+    //     ["EE", "HDJ", "JS"]
+    // ];
+    // // alert(cities[1][2]);
+    // for (let element of cities){
+    //     for (let el of element){
+    //         alert(el);
+    //     }
+    // }
+
+    let a = [1,2]; //a = [1,2]
+    b = a;  // b = [1,2]; a = [1,2]
+    a[1] =10; // a = [1,10] ; b = [1,2]
+    alert(b);
+
+
+</script>
+</body>
+</html>
