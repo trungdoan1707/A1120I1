@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    //Khai báo class Student
+    class Student{
+        constructor(id_thamso, name_thamso, age_thamso){
+            this.id = id_thamso;
+            this.name = name_thamso;
+            this.age = age_thamso;
+        }
+        goToSchool(){
+            console.log("Sinh viên đi học bằng xe đạp");
+        }
+    }
+    let student1 = new Student(1, "Sỹ Thắng", 18);
+    let student2 = new Student(2, "Hạnh", 20);
+    let student3 = new Student(3, "Huy", 20);
+    let student4 = new Student(4, "Hồng", 20);
+    let arr = [student1,student2,student3,student4];
+    alert(student1.id);
+    alert(student1.name);
+    alert(student1.age);
+    student1.goToSchool();
+</script>
+</body>
+</html>
